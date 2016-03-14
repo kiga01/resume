@@ -5,3 +5,4 @@ scssReport.json
 dist
 css
 .idea
+.sass-cache
