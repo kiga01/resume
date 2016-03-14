@@ -5,4 +5,5 @@ scssReport.json
 dist
 css
 .idea
+.idea/workspace.xml
 .sass-cache

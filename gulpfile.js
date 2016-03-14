@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     compass = require('gulp-compass'),
     connect = require('gulp-connect'),
     imagemin = require('gulp-imagemin'),
-    pngcrush = require('imagemin-pngcrush'),
+    pngquant = require('imagemin-pngquant'),
     concat = require('gulp-concat'),
     scsslint = require('gulp-scss-lint');
 
@@ -92,11 +92,14 @@ gulp.task('fonts', function() { 
 
 gulp.task('images', function() { 
     gulp.src('app/img/*.*')
-        //.pipe(imagemin({
-        //    progressive: true,
-        //    svgoPlugins: [{ removeViewBox: false }],
-        //    use: [pngcrush()]
-        //}))
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [
+                {removeViewBox: false},
+                {cleanupIDs: false}
+            ],
+            use: [pngquant()]
+        }))
             .on('error', gutil.log)
         .pipe(gulp.dest(outputDir + 'img')); 
 });
