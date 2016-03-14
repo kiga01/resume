@@ -1,0 +1,84 @@
+@media (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
+
+  .container {
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+
+    .horizon {
+      background-size: cover;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      z-index: 100;
+    }
+
+    .middle {
+      position: absolute;
+      z-index: 200;
+    }
+
+    .floor {
+      bottom: 0;
+      opacity: .9;
+      position: absolute;
+      width: 100%;
+      z-index: 200;
+    }
+
+    .knight {
+      bottom: 47px;
+      left: 140px;
+      position: absolute;
+      width: 150px;
+      z-index: 400;
+    }
+
+    .orc {
+      bottom: 47px;
+      left: 105px;
+      position: absolute;
+      width: 150px;
+      z-index: 300;
+    }
+
+    .sprite2 {
+      background-image: url('../img/knight.png');
+      background-size: cover;
+      height: 120px;
+      opacity: .9;
+      width: 120px;
+    }
+
+    .sprite1 {
+      background-image: url('../img/walk(1).png');
+      background-size: cover;
+      height: 120px;
+      opacity: .9;
+      width: 120px;
+    }
+  }
+
+  .panel {
+    background: $panel-transparent-background;
+    height: 96%;
+    left: 0;
+    margin: 15px;
+    overflow-y: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: justify;
+    text-justify: inter-word;
+    top: 0;
+    z-index: 500;
+
+    p {
+      font-size: $font-size-13px;
+    }
+  }
+}

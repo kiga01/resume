@@ -1,0 +1,90 @@
+ul {
+  list-style: none;
+  padding: 0;
+
+  &.social-icons {
+    margin-top: 10px;
+
+  }
+}
+
+.social-icon {
+  @extend .fa-lg;
+  color: $font-icon-color;
+}
+
+.social-icons li {
+  display: inline;
+  vertical-align: top;
+}
+
+.social-icons a {
+  color: $font-icon-color;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background-color: $icon-background-color;
+  border-radius: 50px;
+  padding: 10px 13px 7px 13px;
+  transition: .5s;
+}
+
+.fa-facebook:hover {
+  background-color: $icon-facebook-color;
+}
+
+.fa-twitter {
+  background-color: $icon-background-color;
+  border-radius: 50px;
+  padding: 10px 10px 7px 10px;
+  transition: .5s;
+}
+
+.fa-twitter:hover {
+  background-color: $icon-twitter-color;
+}
+
+.fa-linkedin {
+  background-color: $icon-background-color;
+  border-radius: 50px;
+  padding: 10px 11px 8px 11px;
+  transition: .5s;
+}
+
+.fa-linkedin:hover {
+  background-color: $icon-linkedin-color;
+}
+
+.fa-download {
+  background-color: $icon-background-color;
+  border-radius: 50px;
+  padding: 10px 10px 7px 10px;
+  transition: .5s;
+}
+
+.fa-download:hover {
+  background-color: $icon-download-color;
+}
+
+.fa-github {
+  background-color: $icon-background-color;
+  border-radius: 50px;
+  padding: 10px 10px 7px 10px;
+  transition: .5s;
+}
+
+.fa-github:hover {
+  background-color: $icon-github-color;
+}
+
+.fa-stack-overflow {
+  background-color: $icon-background-color;
+  border-radius: 50px;
+  padding: 10px 10px 7px 10px;
+  transition: .5s;
+}
+
+.fa-stack-overflow:hover {
+  background-color: $icon-stack-color;
+}

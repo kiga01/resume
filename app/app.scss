@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@import '../node_modules/font-awesome/scss/font-awesome.scss';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss';
+
+$font-family: 'Poiret One', cursive;
+$font-family-p: 'Open Sans', sans-serif;
+
+$base-font-size: 10px;
+$font-size-13px: 1.3rem;
+$font-size-15px: 1.5rem;
+$font-size-22px: 2.2rem;
+$font-size-30px: 3rem;
+
+$font-title-color: #f36027;
+$font-color: #0a7da9;
+
+$horizon-width: 3000px;
+$middle-width: 4500px;
+$front-width: 6000px;
+
+$img-rock-url: '../img/Ground.png';
+$img-knight-sprite: '../img/knight.png';
+$img-idle-knight-sprite: '../img/idlek.png';
+
+$font-icon-color: #ffffff;
+$icon-background-color: #322f30;
+$icon-facebook-color: #3d5b99;
+$icon-twitter-color: #00aced;
+$icon-linkedin-color: #0073a4;
+$icon-download-color: #e25714;
+$icon-github-color: #4d9472;
+$icon-stack-color: #ff794c;
+
+$border-color: #eeeeee;
+$page-background: #ffffff;
+
+$box-bottom-distance: 300px;
+$floor-height: 48px;
+
+$icon-dimensions1: 24px;
+$icon-dimensions2: 48px;
+$icon-dimensions3: 70px;
+
+$background-color: #d0f4f7;
+$panel-transparent-background: rgba(255, 255, 255, .8);
+
+html,
+body {
+  background: $background-color;
+  font-family: $font-family-p;
+  font-size: $base-font-size;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $font-title-color;
+  font-family: $font-family;
+  font-size: $font-size-30px;
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  color: $font-title-color;
+  font-family: $font-family;
+  font-size: $font-size-22px;
+  text-transform: uppercase;
+}
+
+p {
+  color: $font-color;
+  font-size: $font-size-15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.horizon {
+  line-height: 0;
+  width: $horizon-width;
+  z-index: 100;
+}
+
+.middle {
+  line-height: 0;
+  width: $middle-width;
+  z-index: 400;
+}
+
+.front {
+  top: 150px;
+  width: $front-width;
+  z-index: 900;
+}
+
+.floor {
+  bottom: 0;
+  height: 48px;
+  left: 0;
+  width: $front-width;
+  z-index: 700;
+}
+
+.intro {
+  left: 500px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  position: absolute;
+  top: 0;
+
+  span {
+    color: $font-color;
+    padding-left: 10px;
+  }
+}
+
+.intro2 {
+  left: 500px;
+  padding-right: 50px;
+  position: absolute;
+  top: 45px;
+}
+
+.intro3 {
+  left: 500px;
+  padding-right: 50px;
+  position: absolute;
+  top: 70px;
+}
+
+.intro2,
+.intro3 {
+  span {
+    color: $font-color;
+    padding: 0 5px;
+  }
+}
+
+.page {
+  background: $page-background;
+  border: 1px $border-color solid;
+  padding: 10px 30px;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+
+@import 'scss/animations';
+@import 'scss/images';
+@import 'scss/buttons';
+@import 'scss/responsive';

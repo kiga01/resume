@@ -1,0 +1,157 @@
+.knight {
+  bottom: 47px;
+  margin-left: 55px;
+  width: 150px;
+  z-index: 998;
+}
+
+.orc {
+  bottom: 47px;
+  margin-right: 55px;
+  width: 150px;
+  z-index: 1000;
+}
+
+.sprite2 {
+  background-image: url('../img/knight.png');
+  height: 150px;
+  width: 150px;
+}
+
+.sprite1 {
+  background-image: url('../img/walk(1).png');
+  height: 150px;
+  width: 150px;
+}
+
+.iddlek {
+  animation: walk .48s steps(6) infinite;
+  background-image: url('../img/idlek.png');
+  transform: translateZ(0);
+}
+
+@keyframes iddlek {
+  0% {background-position: 0 0;}
+  100% {background-position: -900px 0;}
+}
+
+.walkk {
+  animation: walk .24s steps(12) infinite;
+  background-image: url('../img/walkk.png');
+  transform: translateZ(0);
+}
+
+@keyframes walkk { 
+  0% {background-position: 0 0;}
+  100% {background-position: -1800px 0;}
+}
+
+.defendk {
+  animation: defendk .14s steps(5) infinite;
+  background-image: url('../img/defendk.png');
+  transform: translateZ(0);
+}
+
+@keyframes defendk { 
+  0% {background-position: 0 0;}
+  100% {background-position: -750px 0;}
+}
+
+.attackk {
+  animation: attackk .14s steps(10) infinite;
+  background-image: url('../img/attackk.png');
+  transform: translateZ(0);
+}
+
+@keyframes attackk { 
+  0% {background-position: 0 0;}
+  100% {background-position: -1500px 0;}
+}
+
+.deadk {
+  animation: deadk .35s steps(7);
+  background-image: url('../img/deadk.png');
+  transform: translateZ(0);
+}
+
+@keyframes deadk { 
+  0% {background-position: 0 0;}
+  100% {background-position: -1050px 0;}
+}
+
+.hurtk {
+  animation: hurtk .14s steps(3) infinite;
+  background-image: url('../img/hurtk.png');
+  transform: translateZ(0);
+}
+
+@keyframes hurtk { 
+  0% {background-position: 0 0;}
+  100% {background-position: -450px 0;}
+}
+
+.walk {
+  animation: walk .24s steps(12) infinite;
+  background-image: url('../img/walk1.png');
+  transform: translateZ(0);
+}
+
+@keyframes walk { 
+  0% {background-position: 0 0;}
+  100% {background-position: -1800px 0;}
+}
+
+.iddle {
+  animation: walk .48s steps(6) infinite;
+  background-image: url('../img/iddle1.png');
+  transform: translateZ(0);
+}
+
+@keyframes iddle { 
+  0% {background-position: 0 0;}
+  100% {background-position: -900px 0;}
+}
+
+.attack {
+  animation: attack .14s steps(8) infinite;
+  background-image: url('../img/attack.png');
+  transform: translateZ(0);
+}
+
+@keyframes attack { 
+  0% {background-position: 0 0;}
+  100% {background-position: -1200px 0;}
+}
+
+.defend {
+  animation: defend .14s steps(4) infinite;
+  background-image: url('../img/defend.png');
+  transform: translateZ(0);
+}
+
+@keyframes defend { 
+  0% {background-position: 0 0;}
+  100% {background-position: -600px 0;}
+}
+
+.dead {
+  animation: dead .24s steps(6) infinite;
+  background-image: url('../img/dead.png');
+  transform: translateZ(0);
+}
+
+@keyframes dead { 
+  0% {background-position: 0 0;}
+  100% {background-position: -900px 0;}
+}
+
+.hurt {
+  animation: hurt .14s steps(3) infinite;
+  background-image: url('../img/hurt.png');
+  transform: translateZ(0);
+}
+
+@keyframes hurt { 
+  0% {background-position: 0 0;}
+  100% {background-position: -450px 0;}
+}

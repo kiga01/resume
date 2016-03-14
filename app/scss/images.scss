@@ -1,0 +1,162 @@
+.rock {
+  background-image: url('../img/Ground.png');
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: $floor-height;
+}
+
+.start {
+  bottom: $floor-height;
+  left: 60px;
+  position: absolute;
+}
+
+.end {
+  bottom: $floor-height;
+  left: 5900px;
+  position: absolute;
+}
+
+.plant {
+  bottom: $floor-height;
+  left: 1200px;
+  position: absolute;
+}
+
+.plant1 {
+  bottom: $floor-height;
+  left: 2600px;
+  position: absolute;
+}
+
+.plant2 {
+  bottom: $floor-height;
+  left: 2400px;
+  position: absolute;
+}
+
+.plant3 {
+  bottom: $floor-height;
+  left: 3800px;
+  position: absolute;
+}
+
+.plant4 {
+  bottom: $floor-height;
+  left: 2000px;
+  position: absolute;
+}
+
+.plant5 {
+  bottom: $floor-height;
+  left: 4200px;
+  position: absolute;
+}
+
+.icon1 {
+  background-image: url('../img/signRight.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions2;
+  width: $icon-dimensions2;
+}
+
+.icon2 {
+  background-image: url('../img/signExit.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions2;
+  width: $icon-dimensions2;
+}
+
+.icon3 {
+  background-image: url('../img/plant.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions1;
+  width: $icon-dimensions1;
+}
+
+.icon4 {
+  background-image: url('../img/lock_blue.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions3;
+  width: $icon-dimensions3;
+}
+
+.icon5 {
+  background-image: url('../img/lock_green.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions3;
+  width: $icon-dimensions3;
+}
+
+.icon6 {
+  background-image: url('../img/lock_red.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions3;
+  width: $icon-dimensions3;
+}
+
+.icon7 {
+  background-image: url('../img/lock_yellow.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions3;
+  width: $icon-dimensions3;
+}
+
+.icon8 {
+  background-image: url('../img/plantPurple.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: $icon-dimensions1;
+  width: $icon-dimensions1;
+}
+
+.box1 {
+  bottom: $box-bottom-distance;
+  left: 1100px;
+  position: absolute;
+}
+
+.box2 {
+  bottom: $box-bottom-distance;
+  left: 2100px;
+  position: absolute;
+}
+
+.box3 {
+  bottom: $box-bottom-distance;
+  left: 3100px;
+  position: absolute;
+}
+
+.box4 {
+  bottom: $box-bottom-distance;
+  left: 4100px;
+  position: absolute;
+}
+
+.panel1 {
+  left: 1400px;
+}
+
+.panel2 {
+  left: 2400px;
+}
+
+.panel3 {
+  left: 3400px;
+}
+
+.panel4 {
+  left: 4400px;
+}
+
+.panel5 {
+  left: 5400px;
+}
