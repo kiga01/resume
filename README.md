@@ -6,7 +6,7 @@ tools:
 - NPM
 - gulp
 - scss
-- Jscroll.js
+- Jinvertscroll.js
 - Bootstrap
 - Javascript
 
