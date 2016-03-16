@@ -2,7 +2,7 @@
   "name": "Resume",
   "version": "0.0.1",
   "description": "This is the resume of Alejandro Hinestrosa",
-  "author": "kiga84",
+  "author": "kiga01",
   "scripts": {
     "start": "gulp default"
   },
