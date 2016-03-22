@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bf235e2-6160-4776-9ca2-cbdff4f1ddb7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Ground2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/bg_grasslands.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/boxItem.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/boxItem_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/iddle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/scroll.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/tile_backwall.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/walk(1).png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/docs/US_CV_Alejandro_Hinestrosa_2016.pdf" afterPath="$PROJECT_DIR$/app/docs/US_CV_Alejandro_Hinestrosa_2016.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/walk.png" afterPath="$PROJECT_DIR$/app/img/walk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.scss" afterPath="$PROJECT_DIR$/app/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/animations.scss" afterPath="$PROJECT_DIR$/app/scss/animations.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/responsive.scss" afterPath="$PROJECT_DIR$/app/scss/responsive.scss" />
     </list>
     <ignored path="resume.iws" />
     <ignored path=".idea/workspace.xml" />
