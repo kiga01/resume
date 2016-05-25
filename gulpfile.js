@@ -70,7 +70,6 @@ gulp.task('css', function() { 
     gulp.src(cssSources)
         .pipe(minifycss())
         .pipe(gulp.dest(outputDir + 'css')); 
-
 });
 
 gulp.task('html', function() {
