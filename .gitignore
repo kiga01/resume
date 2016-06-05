@@ -1,10 +1,8 @@
 node_modules
-resources
 npm-debug.log
 scssReport.json
 dist
 css
-.idea
-.idea/workspace.xml
-.sass-cache
 dist.zip
+.idea
+.sass-cache
