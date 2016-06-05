@@ -1,8 +1,8 @@
-node_modules
+/node_modules
 npm-debug.log
 scssReport.json
-dist
-css
+/dist
+/css
 dist.zip
-.idea
-.sass-cache
+/.idea
+/.sass-cache
