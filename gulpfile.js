@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     minifycss = require('gulp-minify-css'),
     compass = require('gulp-compass'),
+    autoprefixer = require('gulp-autoprefixer'),
     connect = require('gulp-connect'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
@@ -52,6 +53,10 @@ gulp.task('scss', function() { 
             style: sassStyle 
         }) 
             .on('error', gutil.log))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(minifycss())
         .pipe(gulp.dest(outputDir + 'css')) 
         .pipe(connect.reload()) 
