@@ -27,6 +27,6 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "imagemin-pngcrush": "^5.0.0",
-    "imagemin-pngquant": "^5.0.0",
+    "imagemin-pngquant": "^5.0.0"
   }
 }
