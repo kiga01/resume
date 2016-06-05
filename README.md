@@ -21,6 +21,10 @@ also I configured a linter for the .scss files and some basic rules for it.
 
 open a browser in : localhost:8080
 
+for check the version of the dependencies use
+
+"ncu" or "ncu -u" for update it
+
 
 ## Who am i
 
