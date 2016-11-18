@@ -89,6 +89,17 @@ ul {
   background-color: $icon-medium-color;
 }
 
+.fa-behance {
+  background-color: $icon-background-color;
+  border-radius: 50px;
+  padding: 10px 10px 7px 10px;
+  transition: .5s;
+}
+
+.fa-behance:hover {
+  background-color: $icon-behance-color;
+}
+
 .fa-stack-overflow {
   background-color: $icon-background-color;
   border-radius: 50px;
