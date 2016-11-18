@@ -140,7 +140,7 @@ linters:
     enabled: true
     severity: error # or `warning`
     include_nested: false
-    max_properties: 11 #recomended 10
+    max_properties: 12 #recomended 10
 
   PropertySortOrder:
     enabled: true
